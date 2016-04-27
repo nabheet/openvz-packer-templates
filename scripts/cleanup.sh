@@ -1,7 +1,8 @@
 #!/bin/sh -eux
 
 # Remove development and kernel source packages
-yum -y remove gcc cpp kernel-devel kernel-headers perl libX11 avahi freetype
+#yum -y remove gcc cpp kernel-devel kernel-headers perl libX11 avahi freetype
+yum -y update
 yum -y clean all
 
 # Clean up network interface persistence
