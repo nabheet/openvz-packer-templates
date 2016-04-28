@@ -9,6 +9,7 @@
       "scripts": [
         "scripts/sshd.sh",
         "scripts/networking.sh",
+        "scripts/update.sh",
         "scripts/vagrant.sh",
         "scripts/vmtools.sh",
         "scripts/cleanup.sh",
